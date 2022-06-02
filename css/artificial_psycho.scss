@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+$primary: #5181aa;
+$danger: #831c8a;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+:root{
+    --bs-body-font-family: 'Creepster', cursive;
+}
