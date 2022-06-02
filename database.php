@@ -5,9 +5,9 @@
 	$password = '2d67980f';
 	
 	try {
-	  $database = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+	  $con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 	  // set the PDO error mode to exception
-	  $database->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	  $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	  echo "Connected successfully";
 	} catch(PDOException $e) {
 	  echo "Connection failed: " . $e->getMessage();

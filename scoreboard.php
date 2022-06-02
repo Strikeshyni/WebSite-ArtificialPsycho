@@ -2,7 +2,19 @@
 require 'class/class.Head.php';
 require 'class/class.Header.php';
 include 'database.php';
-global $database;
+private $database;
+
+$servername = 'eu-cdbr-west-02.cleardb.net';
+$dbname = 'heroku_9abe1d6d35f5f58';
+$username = 'be89b74cd405c2';
+$password = '2d67980f';
+
+// Create connection
+$database = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($database->connect_error) {
+  die("Connection failed: " . $database->connect_error);
+} 
 
 $myhead=new Head();
 $myhead->addhead('stylesheet','css/main.css','BloodLess Studio: Scoreboard','UTF-8',1);
@@ -12,12 +24,9 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
-echo $database;
-
 $querry = $database->query("SELECT * FROM scoreboard ORDER BY Time");
 
 $rank = 1;
-
 
 echo "
 <p style='margin-top:60px;'>
@@ -57,4 +66,6 @@ echo"
 ";
 
 echo "</body></html>";
+ 
+$database->close();
 ?>
