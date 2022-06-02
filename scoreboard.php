@@ -2,7 +2,6 @@
 require 'class/class.Head.php';
 require 'class/class.Header.php';
 
-
 $myhead=new Head();
 $myhead->addhead('stylesheet','css/main.css','BloodLess Studio: Scoreboard','UTF-8',1);
 echo $myhead->getaddhead();
@@ -16,13 +15,7 @@ $cleardb_username = "be89b74cd405c2";
 $cleardb_password = "2d67980f";
 $cleardb_db = "heroku_9abe1d6d35f5f58";
 
-try{
-  $database = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-} catch(PDOExeption $e){
-  die('Erreur :'.$e->getMessage());
-}
-
-
+$database = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 $querry = $database->query("SELECT * FROM `scoreboard` ORDER BY Time");
 
 $rank = 1;
@@ -42,7 +35,8 @@ echo "
       <th scope='col'>Games</th>
     </tr>
   </thead>
-  <tbody>";
+  <tbody>
+";
 
 while ($line = $querry->fetch_assoc()){
     echo"
