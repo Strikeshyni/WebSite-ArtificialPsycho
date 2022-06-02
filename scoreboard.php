@@ -12,8 +12,9 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
+echo $database;
 
-$querry = $database->query("SELECT * FROM artificial_psycho_scoreboard ORDER BY Time");
+$querry = $database->query("SELECT * FROM scoreboard ORDER BY Time");
 
 $rank = 1;
 
