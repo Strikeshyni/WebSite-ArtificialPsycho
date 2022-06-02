@@ -13,11 +13,12 @@ $myheader->addheader(1);
 echo $myheader->getaddheader();
 
 //Get Heroku ClearDB connection information
-$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_url = parse_url("mysql://be89b74cd405c2:2d67980f@eu-cdbr-west-02.cleardb.net/heroku_9abe1d6d35f5f58?reconnect=true");
 $cleardb_server = $cleardb_url["host"];
 $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
 $cleardb_db = substr($cleardb_url["path"],1);
+
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
