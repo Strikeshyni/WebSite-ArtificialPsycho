@@ -18,8 +18,6 @@ $rank = 1;
 
 echo "
 <p style='margin-top:60px;'>
-
-
 <div class='card border border-dark mx-2 mb-2 vh-100'>
 <h4 class='card-header bg-dark text-light justify-content-center'>Scoreboard Artificial Psycho</h4>
 <div class='card-body bg-secondary h-auto'>
@@ -46,14 +44,11 @@ while ($line = $querry->fetch_assoc()){
     </tr>";
     $rank++;
 }
-echo"
-  </tbody>
+?>
+
+</tbody>
 </table>
 </div>
 </div>
-";
-
-echo "</body></html>";
- 
-$database->close();
-?>
+</body>
+</html>
