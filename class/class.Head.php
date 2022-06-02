@@ -8,7 +8,7 @@ class Head
 		if($type == 1)
 		{
 			$this->_head="
-				<!Doctype html>
+				<!DOCTYPE html>
 				<html>
 					<head>
 
@@ -25,7 +25,7 @@ class Head
 		else
 		{
 			$this->_head="
-				<!Doctype html>
+				<!DOCTYPE html>
 				<html>
 					<head>
 

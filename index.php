@@ -6,7 +6,7 @@ $myhead=new Head();
 $myhead->addhead('stylesheet','css/main.css','BloodLess Studio: Le Studio','UTF-8',1);
 echo $myhead->getaddhead();
 
-$myheader=new Header();
+$myheader=new Header(); 
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
