@@ -1,6 +1,6 @@
 <?php
 class Header
-{
+	{
 	private $_header;
 	
 	public function addheader($type)
@@ -39,7 +39,7 @@ class Header
         <header>
           <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger shadow-sm'>
               <a class='navbar-brand text-white' href='../index.php'>
-                <img src='../images/Bloodless.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
+                <img src='../images/ARTIFICIALLogo.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
                 Retour Studio
               </a>
             <div class='collapse navbar-collapse' id='navbarNav'>
@@ -62,7 +62,7 @@ class Header
         <header>
           <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger shadow-sm'>
               <a class='navbar-brand text-white' href='Artificial_psycho.php'>
-                <img src='../images/Bloodless.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
+                <img src='../images/ARTIFICIALLogo.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
                 Artificial Psycho
               </a>
             <div class='collapse navbar-collapse' id='navbarNav'>
@@ -84,5 +84,11 @@ class Header
 	{
 	return $this->_header;
 	}
-}
+
+
+
+/*
+<li class='nav-item'><a href='index.php' class='nav-link active' aria-current='page'>Le Studio</a></li>
+*/
+	}
 ?>
