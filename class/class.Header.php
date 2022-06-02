@@ -1,6 +1,6 @@
 <?php
 class Header
-	{
+{
 	private $_header;
 	
 	public function addheader($type)
@@ -84,44 +84,5 @@ class Header
 	{
 	return $this->_header;
 	}
-
-
-
-/*
-<li class='nav-item'><a href='index.php' class='nav-link active' aria-current='page'>Le Studio</a></li>
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	}
+}
 ?>
