@@ -1,7 +1,7 @@
 <?php
 require 'class/class.Head.php';
 require 'class/class.Header.php';
-include 'database.php';
+//include 'database.php';
 //global $database;
 
 $myhead=new Head();
