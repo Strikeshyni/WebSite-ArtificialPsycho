@@ -19,8 +19,8 @@ echo $myheader->getaddheader();
             <p>Vous pouvez directement accéder au projet Artificial Psycho en cliquant <a class="text-light" href="Artificial_psycho/Artificial_psycho.php">ici</a></p>
         </div>
 
-        <div class='mx-3 px-5 py-2 text-light vh-50'><h3> Les Membres </h3></div>
-        <div class='mx-3 d-flex justify-content-around text-light shadow-sm p-3 rounded-bottom'>
+        <div class='mx-3 px-5 py-2 text-light'><h3> Les Membres </h3></div>
+        <div class='mx-3 mt-1 d-flex justify-content-around text-light shadow-sm p-3 rounded-bottom' style="height: 500px;">
             <figure class='figure'>
                 <img src='images/pp2.jpg' class='figure-img img-fluid img-thumbnail rounded' alt='...'>
                 <figcaption class='figure-caption text-center'>Hugo FRANGIAMONE</figcaption>
