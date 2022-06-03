@@ -11969,4 +11969,8 @@ fieldset:disabled .btn {
 :root {
   --bs-body-font-family: 'Carter One', cursive;
 }
+
+.mainpage {
+  background-color: #191919;
+}
 /*# sourceMappingURL=main.css.map */
