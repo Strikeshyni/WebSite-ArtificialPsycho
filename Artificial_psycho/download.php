@@ -13,7 +13,7 @@ echo $myheader->getaddheader();
 
 <p style='margin-top:60px;'>
 
-<div class='card border border-dark mx-2 h-65'>
+<div class='card border border-dark mx-2 h-100'>
   <h5 class='card-header bg-dark text-light'>All Download</h5>
   <div class='card-body py-4 bg-secondary h-100'>
 
@@ -52,7 +52,7 @@ echo $myheader->getaddheader();
       <div class="fw-bold">Soutenance 03/06/22</div>
       Rapport de troisième soutenance
     </div>
-    <span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF Soon</span>
+    <a href="#soon available"><span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF Soon</span></a>
   </li>
   </ol>
 
