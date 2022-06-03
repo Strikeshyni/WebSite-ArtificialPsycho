@@ -15,8 +15,8 @@ echo $myheader->getaddheader();
 <div class='mx-auto bg-dark text-white' style="padding-top: 130px;">
     <h1 class="text-center">Artificial psycho</h1>
 </div>
-<div class='mx-auto w-75 bg-dark text-white' style="padding-top: 40px;">
-    <p>Vous êtes un robot envoyé pour aller éliminer d'étranges I.A qui infeste un bâtiment. Une fois votre vaisseau arrivé prêt du bâtiment en question, une voix, celle de votre vaisseau, vous explique que ces I.A sont victime d'un virus informatique qui les rendent violentes. Une fois ces I.A éliminées, votre vaisseau vous indique qu'un problème similaire a été déclaré un peu plus loin, vous décidez alors de partir explorer tout les lieux présentant la moindre trace de ces I.A. si mystérieusement dangereuses...</p>
+<div class='mx-auto w-75 bg-dark text-white' style="padding-top: 40px;text-align: justify;">
+    <p>Vous êtes un robot envoyé pour aller éliminer d'étranges I.A qui infestent un bâtiment. Une fois votre vaisseau arrivé prêt du bâtiment en question, une voix, celle de votre vaisseau, vous explique que ces I.A sont victime d'un virus informatique qui les rend violentes. Une fois ces I.A éliminées, votre vaisseau vous indique qu'un problème similaire a été detecté un peu plus loin, vous décidez alors de partir explorer tout les lieux présentant la moindre trace de ces I.A. si mystérieusement dangereuses...</p>
 </div>
 </div>
 </body>
