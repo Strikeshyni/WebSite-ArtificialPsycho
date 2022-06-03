@@ -12,14 +12,6 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
-/*
-$cleardb_server = "eu-cdbr-west-02.cleardb.net";
-$cleardb_username = "be89b74cd405c2";
-$cleardb_password = "2d67980f";
-$cleardb_db = "heroku_9abe1d6d35f5f58";
-
-$database = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-*/
 $querry = $database->query("SELECT * FROM `scoreboard` ORDER BY Time");
 
 $rank = 1;
