@@ -16,7 +16,7 @@ echo $myheader->getaddheader();
         <div class='justify-content-around py-5 px-3 mx-3 mt-5 text-light rounded-top' style='margin-top:80px;'>
             <h3 class='pl-2'>Le Studio</h3>
             <p>Bloodless Studio c'est formé dans le cadre d'un projet de groupe. Pour notre projet de second semestre nous avions à construire ensemble un projet sur Unity et codé en C#. Nous avons ainsi déssidé ensemble de crée Bloodless Studio. Studio qui a ainsi débuté sa première création en février 2022. Artificial psycho est alors en développement et toute l'équipe se donne à fond dans le projet. </p>
-            <p>Vous pouvez directement accéder au projet Artificial Psycho en cliquant <a href="Artificial_psycho/Artificial_psycho.php">ici</a></p>
+            <p>Vous pouvez directement accéder au projet Artificial Psycho en cliquant <a class="text-light" href="Artificial_psycho/Artificial_psycho.php">ici</a></p>
         </div>
 
         <div class='mx-3 px-5 py-2 text-light'><h3> Les Membres </h3></div>
