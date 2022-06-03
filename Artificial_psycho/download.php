@@ -75,7 +75,7 @@ echo $myheader->getaddheader();
     <div class="ms-2 me-auto">
       <div class="fw-bold">Psycho Hell</div>
     </div>
-    <audio class="rounded" controls>
+    <audio class="rounded px-3" controls>
       <source src="sounds/Psycho_Hell.mp3" type="audio/mpeg">
        Your browser does not support the audio tag.
     </audio>
