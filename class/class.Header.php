@@ -45,7 +45,7 @@ class Header
             <div class='collapse navbar-collapse' id='navbarNav'>
               <ul class='navbar-nav'>
                 <li class='nav-item'>
-                  <a href='download.php' class='nav-link text-white'>Download</a>
+                  <a href='download.php' class='nav-link text-white'>Téléchargements</a>
                 </li>
                 <li class='nav-item'>
                   <a href='../scoreboard.php' class='nav-link text-white'>Retour aux Scoreboards</a>

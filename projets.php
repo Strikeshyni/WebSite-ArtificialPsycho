@@ -16,7 +16,7 @@ echo $myheader->getaddheader();
 <div class='card border border-dark mx-2 h-65'>
   <h5 class='card-header bg-dark text-light'>Artificial Psycho</h5>
   <div class='card-body py-4 bg-secondary h-100'>
-    <h4 class='card-title'>Rentrez dans l'univers d'Artificial Psycho</h4>
+    <h4 class='card-title'>Prenez place dans votre vaisseau</h4>
     <p class='card-text'>Venez découvrir le projet Artificial Psycho, l'avancé du projet, les différentes versions et les scoreboards du jeu.</p>
     
     <div class="d-flex justify-content-center mx-auto w-100"><img class="d-block rounded w-75" src="images/vaisseau.png"></div>

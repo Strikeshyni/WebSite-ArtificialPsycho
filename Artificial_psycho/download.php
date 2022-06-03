@@ -14,7 +14,7 @@ echo $myheader->getaddheader();
 <p style='margin-top:65px;'>
 
 <div class='card border border-dark mx-2 h-100'>
-  <h5 class='card-header bg-dark text-light'>>Tout les Téléchargements</h5>
+  <h5 class='card-header bg-dark text-light'>Tout les Téléchargements</h5>
   <div class='card-body py-4 bg-secondary h-100'>
 
 
