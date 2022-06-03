@@ -12,7 +12,7 @@ echo $myheader->getaddheader();
 ?>
 <div class="mainartif" style="background-image: url('../images/couloir.png'); height: 100vh; background-size: cover;">
 
-<div class='mx-auto bg-dark text-white' style="padding-top: 100px;">
+<div class='mx-auto bg-dark text-white' style="padding-top: 130px;">
     <h1 class="text-center">Artificial psycho</h1>
 </div>
 <div class='mx-auto w-75 bg-dark text-white' style="padding-top: 40px;">
