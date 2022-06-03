@@ -60,7 +60,7 @@ class Header
       $this->_header="
       <body class='bg-light'>
         <header>
-          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger shadow-sm border-bottom border-3 border-secondary opacity-75'>
+          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger shadow-sm border-bottom border-2 border-secondary'>
               <a class='navbar-brand text-white' href='Artificial_psycho.php'>
                 <img src='../images/ARTIFICIALLogo.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
                 Artificial Psycho
