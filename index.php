@@ -20,7 +20,7 @@ echo $myheader->getaddheader();
         </div>
 
         <div class='mx-3 px-5 py-2 text-light'><h3> Les Membres </h3></div>
-        <div class='mx-3 mt-1 d-flex justify-content-around text-light shadow-sm p-3 rounded-bottom' style="height: 300px;">
+        <div class='mx-3 mt-1 d-flex justify-content-around text-light shadow-sm p-3 rounded-bottom' style="height: 200px;">
             <figure class='figure'>
                 <img src='images/pp2.jpg' class='figure-img img-fluid img-thumbnail rounded' alt='...'>
                 <figcaption class='figure-caption text-center'>Hugo FRANGIAMONE</figcaption>
