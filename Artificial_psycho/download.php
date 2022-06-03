@@ -63,23 +63,31 @@ echo $myheader->getaddheader();
     <div class="ms-2 me-auto">
       <div class="fw-bold">Theme Menu</div>
     </div>
-    <a href="sounds/Theme_Menu.mp3" target="_blank" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
+    <audio class="rounded-pill px-3" controls>
+      <source src="sounds/Psycho_Hell.mp3" type="audio/mpeg">
+       Your browser does not support the audio tag.
+    </audio>
+    <a href="sounds/Theme_Menu.mp3" onclick="ga('send','event','Getting Started','Download','Download Sound 3');" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Psycho Discovery</div>
     </div>
-    <a href="sounds/Psycho_Discovery.mp3" target="_blank" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
+    <audio class="rounded-pill px-3" controls>
+      <source src="sounds/Psycho_Hell.mp3" type="audio/mpeg">
+       Your browser does not support the audio tag.
+    </audio>
+    <a href="sounds/Psycho_Discovery.mp3" onclick="ga('send','event','Getting Started','Download','Download Sound 3');" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Psycho Hell</div>
     </div>
-    <audio class="rounded px-3" controls>
+    <audio class="rounded-pill px-3" controls>
       <source src="sounds/Psycho_Hell.mp3" type="audio/mpeg">
        Your browser does not support the audio tag.
     </audio>
-    <a href="sounds/Psycho_Hell.mp3" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
+    <a href="sounds/Psycho_Hell.mp3" onclick="ga('send','event','Getting Started','Download','Download Sound 3');" download><span class="badge bg-danger py-3 px-3 rounded-pill">Download MP3</span></a>
   </li>
   </ol>
 
