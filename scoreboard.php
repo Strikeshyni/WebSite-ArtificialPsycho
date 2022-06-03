@@ -29,6 +29,7 @@ echo "
       <th scope='col'>Time</th>
       <th scope='col'>Score</th>
       <th scope='col'>Games</th>
+      <th scope='col'>Date</th>
     </tr>
   </thead>
   <tbody>
@@ -42,6 +43,7 @@ while ($line = $querry->fetch_assoc()){
       <td>".$line["Time"]."</td>
       <td>".$line["Score"]."</td>
       <td>".$line["Nb_games"]."</td>
+      <td>".$line["Date"]."</td>
     </tr>";
     $rank++;
 }
