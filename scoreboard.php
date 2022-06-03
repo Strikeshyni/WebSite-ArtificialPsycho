@@ -12,7 +12,7 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
-$querry = $database->query("SELECT * FROM `scoreboard` ORDER BY Time");
+$querry = $database->query("SELECT * FROM `scoreboard` ORDER BY `Time`,`Score` DESC,`Nb_games`,`Date`");
 
 $rank = 1;
 
