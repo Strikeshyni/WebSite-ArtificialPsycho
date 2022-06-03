@@ -38,21 +38,21 @@ echo $myheader->getaddheader();
       <div class="fw-bold">Soutenance 08/03/22</div>
       Rapport de première soutenance au format pdf
     </div>
-    <a href="soutenance_1_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger</span></a>
+    <a href="soutenance_1_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Soutenance 28/04/22</div>
       Rapport de seconde soutenance au format pdf
     </div>
-    <a href="soutenance_2_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger</span></a>
+    <a href="soutenance_2_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Soutenance 07/06/22</div>
       Rapport de troisième soutenance au format pdf
     </div>
-    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger Bientôt</span></a>
+    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt</span></a>
   </li>
   </ol>
 
