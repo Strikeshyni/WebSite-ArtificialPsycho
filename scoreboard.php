@@ -12,7 +12,7 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
-$querry = $database->query("SELECT * FROM heroku_9abe1d6d35f5f58.scoreboard ORDER BY `Time` ASC,`Score` DESC,`Nb_games` ASC,`Date` ASC");
+$querry = $database->query("SELECT * FROM `scoreboard` ORDER BY `Time` ASC,`Score` DESC,`Date` ASC,`Nb_games` ASC");
 
 $rank = 1;
 
