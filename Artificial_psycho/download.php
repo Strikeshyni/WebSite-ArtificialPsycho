@@ -49,7 +49,7 @@ echo $myheader->getaddheader();
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Soutenance 03/06/22</div>
+      <div class="fw-bold">Soutenance 07/06/22</div>
       Rapport de troisième soutenance
     </div>
     <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Download PDF Soon</span></a>
