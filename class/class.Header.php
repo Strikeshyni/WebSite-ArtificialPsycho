@@ -37,7 +37,7 @@ class Header
       $this->_header="
       <body class='bg-light'>
         <header>
-          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger bg-opacity-75 shadow-sm border-bottom border-3 border-secondary'>
+          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger bg-opacity-75 shadow-sm border-bottom border-2 border-secondary'>
               <a class='navbar-brand text-white' href='../index.php'>
                 <img src='../images/ARTIFICIALLogo.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
                 Retour Studio
