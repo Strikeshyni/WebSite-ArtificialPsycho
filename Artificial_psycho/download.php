@@ -24,21 +24,21 @@ echo $myheader->getaddheader();
       <div class="fw-bold">Soutenance 1</div>
       Rapport de première soutenance
     </div>
-    <span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF</span>
+    <a href="soutenance_1_ArtificialPsycho.pdf" onclick="ga('send','event','Getting Started','Download','Download Soutenance 1');"><span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Soutenance 2</div>
       Rapport de seconde soutenance
     </div>
-    <span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF</span>
+    <span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Soutenance 3</div>
       Rapport de troisième soutenance
     </div>
-    <span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF</span>
+    <span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span>
   </li>
   </ol>
 
