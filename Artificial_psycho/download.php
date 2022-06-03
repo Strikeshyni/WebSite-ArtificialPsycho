@@ -26,7 +26,7 @@ echo $myheader->getaddheader();
       Première version jouable du jeux disponible depuis le 04/06/22.
       Version BETA.
     </div>
-    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Bientôt dispo</span></a>
+    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt disponnible</span></a>
   </li>
   </ol>
 
