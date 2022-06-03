@@ -27,7 +27,7 @@ class Header
             </div>
 
             <form class='form-inline'>
-              <a class='btn btn-outline-light' href='Artificial_psycho/Artificial_psycho.php' role='button'>Go to latest Project</a>
+              <a class='btn btn-outline-light' href='Artificial_psycho/Artificial_psycho.php' role='button'>Dernier projet</a>
             </form>
           </nav>
         </header>";
@@ -48,7 +48,7 @@ class Header
                   <a href='download.php' class='nav-link text-white'>Download</a>
                 </li>
                 <li class='nav-item'>
-                  <a href='../scoreboard.php' class='nav-link text-white'>Back to Scoreboards</a>
+                  <a href='../scoreboard.php' class='nav-link text-white'>Retour aux Scoreboards</a>
                 </li>
               </ul>
             </div>
@@ -68,10 +68,10 @@ class Header
             <div class='collapse navbar-collapse' id='navbarNav'>
               <ul class='navbar-nav'>
                 <li class='nav-item'>
-                  <a href='download.php' class='nav-link text-white'>Download</a>
+                  <a href='download.php' class='nav-link text-white'>Téléchargements</a>
                 </li>
                 <li class='nav-item'>
-                  <a href='../scoreboard.php' class='nav-link text-white'>Back to Scoreboards</a>
+                  <a href='../scoreboard.php' class='nav-link text-white'>Retour aux Scoreboards</a>
                 </li>
               </ul>
             </div>

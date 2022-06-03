@@ -17,10 +17,10 @@ echo $myheader->getaddheader();
   <h5 class='card-header bg-dark text-light'>Artificial Psycho</h5>
   <div class='card-body py-4 bg-secondary h-100'>
     <h4 class='card-title'>Rentrez dans l'univers d'Artificial Psycho</h4>
-    <p class='card-text'>Venez découvrir le projet Artificial Psycho, l'avancé du projet, les différentes versions et les scoreboards du jeux.</p>
+    <p class='card-text'>Venez découvrir le projet Artificial Psycho, l'avancé du projet, les différentes versions et les scoreboards du jeu.</p>
     
-    <div class="mx-auto w-100"><img class="d-block rounded w-100" src="images/vaisseau.png"></div>
-    <div class="mx-auto w-75"><a type="button" href="Artificial_psycho/Artificial_psycho.php" class="btn btn-outline-dark btn-lg btn-block my-1 w-100 mx-auto">GO TO ARTIFICIAL PSYCHO</a></div>
+    <div class="mx-auto w-100"><img class="d-block rounded w-75" src="images/vaisseau.png"></div>
+    <div class="mx-auto w-75"><a type="button" href="Artificial_psycho/Artificial_psycho.php" class="btn btn-outline-dark btn-lg btn-block my-1 w-100 mx-auto">C'EST PARTI</a></div>
 
   </div>
 </div>
