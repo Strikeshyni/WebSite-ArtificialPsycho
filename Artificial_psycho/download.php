@@ -23,22 +23,15 @@ echo $myheader->getaddheader();
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Artificial Psycho</div>
-      Première version jouable du jeux disponible depuis le 28/04/22.
-      Version non achevé BETA.
+      Première version jouable du jeux disponible depuis le 04/06/22.
+      Version BETA.
     </div>
-    <a href="soutenance_1_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-primary py-3 px-3 rounded-pill">Download BETA for test</span></a>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold">Soutenance 28/04/22</div>
-      Rapport de seconde soutenance
-    </div>
-    <a href="#soon available" target="_blank"><span class="badge bg-primary py-3 px-3 rounded-pill">Download v1.0 Soon</span></a>
+    <a href="#soon available"><span class="badge bg-primary py-3 px-3 rounded-pill">Download BETA Soon</span></a>
   </li>
   </ol>
 
 
-  <h5 class="card-title">Soutenances</h5>
+  <h5 class="card-title mt-2">Soutenances</h5>
   <ol class="list-group list-group-numbered">
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
