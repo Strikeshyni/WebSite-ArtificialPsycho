@@ -21,24 +21,24 @@ echo $myheader->getaddheader();
   <ol class="list-group list-group-numbered">
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Soutenance 1</div>
+      <div class="fw-bold">Soutenance 08/03/22</div>
       Rapport de première soutenance
     </div>
-    <a href="soutenance_1_ArtificialPsycho.pdf" onclick="ga('send','event','Getting Started','Download','Download Soutenance 1');"><span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span></a>
+    <a href="soutenance_1_ArtificialPsycho.pdf" onclick="ga('send','event','Getting Started','Download','Download Soutenance 1');"><span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Soutenance 2</div>
+      <div class="fw-bold">Soutenance </div>
       Rapport de seconde soutenance
     </div>
-    <span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span>
+    <a href="soutenance_2_ArtificialPsycho.pdf"><span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Soutenance 3</div>
+      <div class="fw-bold">Soutenance 03/06/22</div>
       Rapport de troisième soutenance
     </div>
-    <span class="badge bg-primary py-2 px-2 rounded-pill">Download PDF</span>
+    <span class="badge bg-primary py-3 px-3 rounded-pill">Download PDF Soon</span>
   </li>
   </ol>
 
