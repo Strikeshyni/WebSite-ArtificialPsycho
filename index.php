@@ -11,7 +11,7 @@ $myheader->addheader(1);
 echo $myheader->getaddheader();
 ?>
 
-        <div class="mainpage">
+        <div class="mainpage vh-100">
 
         <div class='justify-content-around py-5 px-3 mx-3 mt-5 text-light rounded-top' style='margin-top:80px;'>
             <h3 class='pl-2'>Le Studio</h3>
@@ -37,7 +37,7 @@ echo $myheader->getaddheader();
                 <figcaption class='figure-caption text-center'>Léonard FIGUINHA</figcaption>
             </figure>
         </div>
-        
+        </div>
 </body>
 </html>
-</div>
+
