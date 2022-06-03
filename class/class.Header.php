@@ -37,18 +37,18 @@ class Header
       $this->_header="
       <body class='bg-light'>
         <header>
-          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger shadow-sm border-bottom border-3 border-secondary opacity-75'>
-              <a class='navbar-brand text-white opacity-100' href='../index.php'>
+          <nav class='px-2 navbar fixed-top navbar-expand-lg navbar-light bg-danger bg-opacity-75 shadow-sm border-bottom border-3 border-secondary'>
+              <a class='navbar-brand text-white' href='../index.php'>
                 <img src='../images/ARTIFICIALLogo.png' width='30' height='30' class='d-inline-block align-top rounded-circle' alt=''>
                 Retour Studio
               </a>
             <div class='collapse navbar-collapse' id='navbarNav'>
               <ul class='navbar-nav'>
                 <li class='nav-item'>
-                  <a href='download.php' class='nav-link text-white opacity-100'>Download</a>
+                  <a href='download.php' class='nav-link text-white'>Download</a>
                 </li>
                 <li class='nav-item'>
-                  <a href='../scoreboard.php' class='nav-link text-white opacity-100'>Back to Scoreboards</a>
+                  <a href='../scoreboard.php' class='nav-link text-white'>Back to Scoreboards</a>
                 </li>
               </ul>
             </div>
