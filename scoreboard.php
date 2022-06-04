@@ -19,7 +19,7 @@ $rank = 1;
 echo "
 <p style='margin-top:60px;'>
 <div class='card border border-dark mx-2 mb-2 vh-100'>
-<h4 class='card-header bg-dark text-light justify-content-center'>Scoreboard Artificial Psycho</h4>
+<h4 class='card-header bg-dark text-light justify-content-center'>Artificial Psycho TOP-50</h4>
 <div class='card-body bg-secondary h-auto'>
 <table class='table table-striped table-dark'>
   <thead>
