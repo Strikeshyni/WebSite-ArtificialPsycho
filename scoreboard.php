@@ -28,7 +28,6 @@ echo "
       <th scope='col'>Name</th>
       <th scope='col'>Time</th>
       <th scope='col'>Score</th>
-      <th scope='col'>Games</th>
       <th scope='col'>Date</th>
     </tr>
   </thead>
@@ -42,7 +41,6 @@ while ($line = $querry->fetch_assoc()){
       <td>".$line["Name"]."</td>
       <td>".$line["Time"]."</td>
       <td>".$line["Score"]."</td>
-      <td>".$line["Nb_games"]."</td>
       <td>".$line["Date"]."</td>
     </tr>";
     $rank++;
@@ -50,7 +48,7 @@ while ($line = $querry->fetch_assoc()){
 if($rank == 1){
   echo"
     <tr>
-      <td colspan='6' class='text-center'>Personne n'est classé pour le moment !</td>
+      <td colspan='5' class='text-center'>Personne n'est classé pour le moment !</td>
     </tr>";
 }
 
