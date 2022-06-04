@@ -34,8 +34,14 @@ echo "
   </thead>
   <tbody>
 ";
-
-while ($line = $querry->fetch_assoc()){
+if (mysql_num_rows($querry) == 0) { 
+  echo"
+    <tr>
+      <td colspan='6'>Personne n'est classé !</td>
+    </tr>";
+}
+else{
+  while ($line = $querry->fetch_assoc()){
     echo"
       <tr>
       <th scope='row'>$rank</th>
@@ -46,6 +52,7 @@ while ($line = $querry->fetch_assoc()){
       <td>".$line["Date"]."</td>
     </tr>";
     $rank++;
+  }
 }
 
 ?>
