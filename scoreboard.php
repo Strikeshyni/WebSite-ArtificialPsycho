@@ -50,7 +50,7 @@ while ($line = $querry->fetch_assoc()){
 if($rank == 1){
   echo"
     <tr>
-      <td colspan='6' class='text-center'>Personne n'est classé !</td>
+      <td colspan='6' class='text-center'>Personne n'est classé pour le moment !</td>
     </tr>";
 }
 
