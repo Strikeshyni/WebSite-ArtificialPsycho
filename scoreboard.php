@@ -34,12 +34,6 @@ echo "
   </thead>
   <tbody>
 ";
-if ($querry->columnCount() === 0) { 
-  echo"
-    <tr>
-      <td colspan='6'>Personne n'est classé !</td>
-    </tr>";
-}
 
 while ($line = $querry->fetch_assoc()){
     echo"
@@ -52,6 +46,12 @@ while ($line = $querry->fetch_assoc()){
       <td>".$line["Date"]."</td>
     </tr>";
     $rank++;
+}
+if($rank == 1){
+  echo"
+    <tr>
+      <td colspan='6'>Personne n'est classé !</td>
+    </tr>";
 }
 
 ?>
