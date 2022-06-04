@@ -34,16 +34,16 @@ echo "
   </thead>
   <tbody>
 ";
-if (mysql_num_rows($querry) == 0) { 
+if ($querry->columnCount() === 0) { 
   echo"
     <tr>
       <td colspan='6'>Personne n'est classé !</td>
     </tr>";
 }
-else{
-  while ($line = $querry->fetch_assoc()){
+
+while ($line = $querry->fetch_assoc()){
     echo"
-      <tr>
+    <tr>
       <th scope='row'>$rank</th>
       <td>".$line["Name"]."</td>
       <td>".$line["Time"]."</td>
@@ -52,7 +52,6 @@ else{
       <td>".$line["Date"]."</td>
     </tr>";
     $rank++;
-  }
 }
 
 ?>
