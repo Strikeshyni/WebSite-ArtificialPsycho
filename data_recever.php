@@ -4,7 +4,7 @@ global $database;
 
 if (!empty($_POST))
 {
-    var_dump($_POST);
+    print_r($_POST);
     $pseudo = $_POST['Name'];
     $time = $_POST['Time'];
     $score = $_POST['Score'];
