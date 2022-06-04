@@ -52,7 +52,7 @@ echo $myheader->getaddheader();
       <div class="fw-bold">Soutenance 07/06/22</div>
       Rapport de troisième soutenance au format pdf
     </div>
-    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt</span></a>
+    <a href="soutenance_3_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
   </li>
   </ol>
 
