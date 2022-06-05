@@ -23,7 +23,7 @@ echo $myheader->getaddheader();
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Artificial Psycho</div>
-      Première version jouable du jeux disponible depuis le 04/06/22.
+      Première version jouable du jeux bietôt disponnible.
       Version BETA.
     </div>
     <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt disponnible</span></a>
