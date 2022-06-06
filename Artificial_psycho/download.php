@@ -14,7 +14,7 @@ echo $myheader->getaddheader();
 <p style='margin-top:65px;'>
 
 <div class='card border border-dark mx-2 h-100'>
-  <h5 class='card-header bg-dark text-light'>Tout les Téléchargements</h5>
+  <h5 class='card-header bg-dark text-light'>Tous les Téléchargements</h5>
   <div class='card-body py-4 bg-secondary h-100'>
 
 
@@ -43,7 +43,7 @@ echo $myheader->getaddheader();
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Soutenance 28/04/22</div>
-      Rapport de seconde soutenance au format pdf
+      Rapport de deuxième soutenance au format pdf
     </div>
     <a href="soutenance_2_ArtificialPsycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
   </li>
