@@ -23,10 +23,10 @@ echo $myheader->getaddheader();
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Artificial Psycho</div>
-      Première version jouable du jeux bietôt disponnible.
+      Première version jouable du jeux bientôt disponible.
       Version BETA.
     </div>
-    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt disponnible</span></a>
+    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt disponible</span></a>
   </li>
   </ol>
 
