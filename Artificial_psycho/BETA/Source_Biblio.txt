@@ -1,0 +1,44 @@
+
+------------Sources et Bibliotheques du projet------------
+
+
+--------Environnements / modeles 3D / animations--------
+
+Boutique Unreal
+https://www.unrealengine.com/marketplace/en-US/product/sci-fi-weapons-silver
+https://www.unrealengine.com/marketplace/en-US/product/animation-starter-pack
+
+Unity Asset Store
+https://assetstore.unity.com/packages/3d/animations/zombie-animation-pack-free-150219
+https://assetstore.unity.com/packages/3d/environments/sci-fi/atm-95057
+https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-construction-kit-modular-159280#publisher
+
+
+--------Tutoriels lies au developpement--------
+
+Playlist : Unity - AI Series 
+Provider : TheKiwiCoder
+https://www.youtube.com/watch?v=TpQbqRNCgM0&list=PLyBYG1JGBcd009lc1ZfX9ZN5oVUW7AFVy
+
+Playlist : Creer un FPS MULTIJOUEUR avec Mirror sur Unity 
+Provider : TUTO UNITY FR
+https://www.youtube.com/watch?v=65i-egqXY0o&list=PLUWxWDlz8PYI2OdmIhOnxg92kl0DgS1EN
+
+Playlist : Multiplayer FPS in Unity: Photon 2 Setup & Menu
+provider : Rugbug Redfern
+https://www.youtube.com/watch?v=zPZK7C5_BQo
+
+
+ATTENTION : Artificial Psycho n'est pas un assemblage de tutoriels et de modèles 3D préfait, 
+            les éléments listés ci-dessus ont simplement contribué à sa création et permettent 
+            de comprendre le cheminement du processus de création du jeu.
+            Tous le contenu du jeu qui n'est pas inspiré des sources ci-dessus est complètement 
+            original et produit par BloodLess Studio.
+
+ 
+
+
+
+
+
+

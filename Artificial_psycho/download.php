@@ -22,11 +22,25 @@ echo $myheader->getaddheader();
   <ol class="list-group list-group-numbered">
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
-      <div class="fw-bold">Artificial Psycho</div>
-      Première version jouable du jeux bientôt disponible.
-      Version BETA.
+      <div class="fw-bold">Artificial Psycho BETA</div>
+      Première version BETA au format zip.
+      Après Téléchargement : Extraire le fichier SetupArtificialPsycho.exe
     </div>
-    <a href="#soon available"><span class="badge bg-danger py-3 px-3 rounded-pill">Bientôt disponible</span></a>
+    <a href="BETA/SetupFileToUnZip.zip" download><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Setup</span></a>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Manuel d'installation</div>
+      Jetez un coup d'oeil au manuel pour être guidé sur l'installation de la BETA.
+    </div>
+    <a href="BETA/Manuel_Artificial_Psycho.pdf" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Après installation</div>
+      Vous trouverez ici les sources utilisées pour la création d'Artificial Psycho.
+    </div>
+    <a href="BETA/Source_Biblio.txt" target="_blank"><span class="badge bg-danger py-3 px-3 rounded-pill">Ouvrir</span></a>
   </li>
   </ol>
 
