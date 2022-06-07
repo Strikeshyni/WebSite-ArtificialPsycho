@@ -25,7 +25,7 @@ echo $myheader->getaddheader();
       <div class="fw-bold">Artificial Psycho BETA</div>
       BETA Installer.
     </div>
-    <a href="BETA/SetupArtificialPsycho.exe"><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Setup</span></a>
+    <a href="https://github.com/Strikeshyni/WebSite-ArtificialPsycho/raw/main/Artificial_psycho/BETA/SetupArtificialPsycho.exe" download><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Setup</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
