@@ -12,14 +12,14 @@ $myheader=new Header();
 $myheader->addheader(1);
 echo $myheader->getaddheader();
 
-$querry = $database->query("SELECT * FROM `scoreboard` ORDER BY `Time` ASC,`Score` DESC,`Date` ASC LIMIT 50");
+$querry = $database->query("SELECT * FROM `scoreboard` ORDER BY `Time` ASC,`Score` DESC,`Date` ASC LIMIT 100");
 
 $rank = 1;
 
 echo "
 <p style='margin-top:60px;'>
 <div class='card border border-dark mx-2 mb-2 vh-100'>
-<h4 class='card-header bg-dark text-light justify-content-center'>Artificial Psycho TOP-50</h4>
+<h4 class='card-header bg-dark text-light justify-content-center'>Artificial Psycho TOP-100</h4>
 <div class='card-body bg-secondary h-auto py-2'>
 <table class='table table-striped table-dark'>
   <thead>
