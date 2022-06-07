@@ -26,7 +26,7 @@ echo $myheader->getaddheader();
       Première version BETA au format zip.<br>
       Après Téléchargement : Extraire le fichier SetupArtificialPsycho.exe
     </div>
-    <a href="BETA/SetupFileToUnZip.zip" download><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Setup</span></a>
+    <a href="BETA/SetupFile.zip" download><span class="badge bg-danger py-3 px-3 rounded-pill">Télécharger BETA Setup zip</span></a>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
