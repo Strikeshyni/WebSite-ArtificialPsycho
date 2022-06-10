@@ -22,7 +22,7 @@ $resultScore = $database->query("SELECT * FROM `scoreboard` ORDER BY `Score` DES
 <div class='card border border-dark mx-2 mb-2 vh-100'>
 
 <div class='card-header bg-dark text-light d-inline-flex justify-content-between'>
-<h4 class="align-middle">Artificial Psycho BETA TOP-100</h4>
+<h4 class="align-middle">Artificial Psycho BETA TOP-100 3 catégories</h4>
 </div>
 
 <div class='card-body bg-secondary h-auto py-2'>
